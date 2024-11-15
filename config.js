@@ -36,9 +36,9 @@ module.exports = {
 
    // Lavalink Server Details
 
-  nodes: [
+nodes: [
     {
-        name: "Server",
+        name: "Working1",
         host: "nodev4.fypmoon.org",
         port: 1118,
         password: "fypmoon.org",
@@ -46,7 +46,7 @@ module.exports = {
         reconnectTries: Infinity,
         secure: false
     },
- ]
+ ]]
 }
 /*
 
