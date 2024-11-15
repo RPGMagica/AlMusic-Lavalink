@@ -46,7 +46,7 @@ nodes: [
         reconnectTries: Infinity,
         secure: false
     },
- ]]
+ ]
 }
 /*
 
