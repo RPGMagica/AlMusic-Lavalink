@@ -39,9 +39,9 @@ module.exports = {
 nodes: [
     {
         name: "UWU",
-        host: "lavahatry4.techbyte.host",
-        port: 3000,
-        password: "NAIGLAVA-dash.techbyte.host",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
