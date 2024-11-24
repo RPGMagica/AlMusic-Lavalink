@@ -32,7 +32,9 @@ module.exports = {
   CheckmarkIcon: "https://cdn.discordapp.com/emojis/819446784647757834.gif",
   MusicIcon:"https://cdn.discordapp.com/emojis/763415718271385610.gif",
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
-  errorLog: "", 
+  errorLog: "",
+
+  const statusMessages = ["人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"];
 
    // Lavalink Server Details
 
