@@ -47,9 +47,8 @@ module.exports = async (client) => {
         return;
     }
     
-    setInterval(() => client.user.setActivity({
+   const status = await client.user.setActivity({
         type: ActivityType.Custom,
-        name: 'customstatus",
         state: 'Nah i'd change'
     }), 10000);
 
