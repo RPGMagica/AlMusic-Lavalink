@@ -43,7 +43,7 @@ module.exports = async (client) => {
   
    const status = await client.user.setActivity({
         type: ActivityType.Custom,
-        name: "「運命」、どうかここに来ないで、何もかも知らないままにしておいてください。."
+        name: "<:Arkria1:1310152792400330804>「運命」、どうかここに来ないで、何もかも知らないままにしておいてください。."
     });
 
     client.errorLog = config.errorLog;
