@@ -27,7 +27,7 @@ module.exports = async (client) => {
     const { REST } = require("@discordjs/rest");
     const { Routes } = require("discord-api-types/v10");
     const rest = new REST({ version: "10" }).setToken(config.TOKEN || process.env.TOKEN);
-   
+
     (async () => {
         try {
             await rest.put(Routes.applicationCommands(client.user.id), {
@@ -47,9 +47,9 @@ module.exports = async (client) => {
         return;
     }
     
-    setInterval(() => client.user.setActivity('物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。', { 
-        name: config.activityName,
-        type: config.activityType
+    setInterval(() => client.user.setActivity({ 
+        name: config.activityName, 
+        type: activityType 
     }), 10000);
 
     client.errorLog = config.errorLog;
@@ -76,4 +76,3 @@ module.exports = async (client) => {
 
 
 */
-
