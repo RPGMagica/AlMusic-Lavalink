@@ -40,13 +40,7 @@ module.exports = async (client) => {
     })();
 
     console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
-
-    const activityType = ActivityType[config.activityType.charAt(0).toUpperCase() + config.activityType.slice(1).toLowerCase()];
-    if (!activityType) {
-        console.error(`Invalid activity type: ${config.activityType}`);
-        return;
-    }
-    
+  
    const status = await client.user.setActivity({
         type: ActivityType.Custom,
         name: "物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。"
