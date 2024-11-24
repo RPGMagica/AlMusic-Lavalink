@@ -50,7 +50,7 @@ module.exports = async (client) => {
    const status = await client.user.setActivity({
         type: ActivityType.Custom,
         name: "物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。"
-    }), );
+    });
 
     client.errorLog = config.errorLog;
 };
