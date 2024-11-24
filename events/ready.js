@@ -49,7 +49,7 @@ module.exports = async (client) => {
     
     setInterval(() => client.user.setActivity('物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。', { 
         name: config.activityName,
-        type: 
+        type: config.activityType
     }), 10000);
 
     client.errorLog = config.errorLog;
