@@ -27,35 +27,7 @@ module.exports = async (client) => {
     const { REST } = require("@discordjs/rest");
     const { Routes } = require("discord-api-types/v10");
     const rest = new REST({ version: "10" }).setToken(config.TOKEN || process.env.TOKEN);
-    const statusMessages = ["人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"];
-
-  
-  let currentIndex = 0;
-const channelId = '';
-
-function updateStatusAndSendMessages() {
-  const currentStatus = statusMessages[currentIndex];
-  const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
-
-  client.user.setPresence({
-    activities: [{ name: currentStatus}],
-    status: 'dnd',
-  });
-
-  
-  const textChannel = client.channels.cache.get(channelId);
-
-  if (textChannel instanceof TextChannel) {
    
-    textChannel.send(`Bot status is: ${currentStatus}`);
-  } else {
-
-  }
-
-  currentIndex = (currentIndex + 1) % statusMessages.length;
-}
-
-
     (async () => {
         try {
             await rest.put(Routes.applicationCommands(client.user.id), {
