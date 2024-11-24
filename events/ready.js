@@ -47,7 +47,7 @@ module.exports = async (client) => {
         return;
     }
     
-    setInterval(() => client.user.setActivity('使用一顆心免於哀傷', { 
+    setInterval(() => client.user.setActivity('物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。', { 
         name: config.activityName, 
         type: activityType 
     }), 10000);
