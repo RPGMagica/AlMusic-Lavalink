@@ -34,8 +34,6 @@ module.exports = {
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
   errorLog: "",
 
-  const statusMessages = ["人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"];
-
    // Lavalink Server Details
 
 nodes: [
