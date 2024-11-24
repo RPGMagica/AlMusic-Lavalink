@@ -47,9 +47,10 @@ module.exports = async (client) => {
         return;
     }
     
-    setInterval(() => client.user.setActivity({ 
-        name: config.activityName, 
-        type: activityType 
+    setInterval(() => client.user.setActivity({
+        type: ActivityType.Custom,
+        name: 'customstatus",
+        state: 'Nah i'd change'
     }), 10000);
 
     client.errorLog = config.errorLog;
