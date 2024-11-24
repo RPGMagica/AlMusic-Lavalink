@@ -49,7 +49,7 @@ module.exports = async (client) => {
     
    const status = await client.user.setActivity({
         type: ActivityType.Custom,
-        state: 'Nah i'd change'
+        name: "物語が終わりに近づくにつれて、おそらく私たちは物語が始まった瞬間を思い出します。"
     }), 10000);
 
     client.errorLog = config.errorLog;
