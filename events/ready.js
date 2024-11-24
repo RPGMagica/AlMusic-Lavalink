@@ -47,7 +47,7 @@ module.exports = async (client) => {
         return;
     }
     
-    setInterval(() => client.user.setActivity({ 
+    setInterval(() => client.user.setActivity('使用一顆心免於哀傷', { 
         name: config.activityName, 
         type: activityType 
     }), 10000);
