@@ -41,7 +41,7 @@ module.exports = async (client) => {
 
     console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
 
-    const activityType = ActivityType[config.activityType.charAt(0).toUpperCase() + config.activityType.slice(1).toLowerCase()];
+    const activityName = ActivityName[config.activityName.charAt(0).toUpperCase() + config.activityName.slice(1).toLowerCase()];
     if (!activityType) {
         console.error(`Invalid activity type: ${config.activityType}`);
         return;
