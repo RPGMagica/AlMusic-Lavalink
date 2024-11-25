@@ -1,5 +1,6 @@
 /*
-________.__                        _____.___.___________
+
+  ________.__                        _____.___.___________
  /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
 /   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
 \    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
@@ -78,7 +79,7 @@ client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
 
-client.login("config.TOKEN || process.env.TOKEN").catch((e) => {
+client.login(config.TOKEN || process.env.TOKEN).catch((e) => {
     console.log('TOKEN ERROR❌  - Turn On Intents or Reset New Token');
 });
 
