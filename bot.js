@@ -1,4 +1,3 @@
-/*
 
   ________.__                        _____.___.___________
  /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
@@ -79,7 +78,7 @@ client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
 
-client.login("z3em").catch((e) => {
+client.login("config.TOKEN || process.env.TOKEN").catch((e) => {
     console.log('TOKEN ERROR❌  - Turn On Intents or Reset New Token');
 });
 
