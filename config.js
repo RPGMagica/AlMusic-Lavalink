@@ -37,9 +37,9 @@ module.exports = {
 nodes: [
     {
         name: "UWU",
-        host: "lava.link",
-        port: 80,
-        password: "CodeX",
+        host: "lavalink.clxud.dev",
+        port: 2333,
+        password: "youshallnotpass",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
