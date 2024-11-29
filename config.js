@@ -37,9 +37,9 @@ module.exports = {
 nodes: [
     {
         name: "UWU",
-        host: "node.lewdhutao.my.eu.org",
+        host: "lava.link",
         port: 80,
-        password: "youshallnotpass",
+        password: "CodeX",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
