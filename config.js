@@ -38,7 +38,7 @@ module.exports = {
 
   nodes: [
 {
-  "password": "saher.inzeworld.com",
+  "password": "lava-all.ajieblogs.eu.org",
   "host": "https://dsc.gg/ajidevserver",
   "port": 443,
   "secure": false
