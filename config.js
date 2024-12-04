@@ -41,7 +41,7 @@ module.exports = {
   "password": "lava-all.ajieblogs.eu.org",
   "host": "https://dsc.gg/ajidevserver",
   "port": 443,
-  "secure": false
+  "secure": true
 },
  ]
 }
