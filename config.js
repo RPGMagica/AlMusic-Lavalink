@@ -39,9 +39,9 @@ module.exports = {
   nodes: [
 {
 name: "Server",
-host : "lavalinkv4-eu.serenetia.com",
-port : 443,
-password : "https://dsc.gg/ajidevserver",
+host : "lavahatry4.techbyte.host",
+port : 3000,
+password : "NAIGLAVA-dash.techbyte.host",
 secure : true
 },
  ]
