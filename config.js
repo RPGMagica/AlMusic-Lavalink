@@ -38,11 +38,12 @@ module.exports = {
 
   nodes: [
 {
-  "identifier": "AjieDev - Lavalink [SSL]",
-  "password": "https://dsc.gg/ajidevserver",
-  "host": "lava-v3.ajieblogs.eu.org",
-  "port": 443,
-  "secure": true
+{
+  "identifier": "INZEWORLD.COM (DE)",
+  "password": "saher.inzeworld.com",
+  "host": "lava.inzeworld.com",
+  "port": 3128,
+  "secure": false
 },
  ]
 }
