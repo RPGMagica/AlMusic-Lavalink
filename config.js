@@ -36,13 +36,11 @@ module.exports = {
 
 nodes: [
     {
-        name: "UWU",
-        host: "lava.inzeworld.com",
-        port: 3128,
-        password: "saher.inzeworld.com",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: false
+  "identifier": "AjieDev - Lavalink [Non SSL]",
+  "password": "https://dsc.gg/ajidevserver",
+  "host": "lava-v3.ajieblogs.eu.org",
+  "port": 80,
+  "secure": false
     },
  ]
 }
