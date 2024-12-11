@@ -38,13 +38,11 @@ module.exports = {
 
   nodes: [
 {
-        name: "Server",
-        host: "lavav4.prplmoe.me",
-        port: 1118,
-        password: "prplmoe.me",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: false
+  "identifier": "MYHM.Space",
+  "password": "d.gg/therepublic",
+  "host": "ll3.myhm.space",
+  "port": 443,
+  "secure": true
 },
  ]
 }
