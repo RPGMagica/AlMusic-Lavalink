@@ -38,7 +38,6 @@ module.exports = {
 
   nodes: [
 {
-{
   "identifier": "INZEWORLD.COM (DE)",
   "password": "saher.inzeworld.com",
   "host": "lava.inzeworld.com",
