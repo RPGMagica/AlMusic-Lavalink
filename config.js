@@ -20,13 +20,6 @@ module.exports = {
       host: "lava.inzeworld.com",
       port: 3128,
       secure: false
-    },
-    {
-      name: "Catfein ID",
-      password: "catfein",
-      host: "lava.catfein.com",
-      port: 4000,
-      secure: false
     }
   ]
 }
