@@ -17,13 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Node #1",
-        host: "lavalinkv3-id.serenetia.com",
-        port: 443,
-        password: "BatuManaBisar",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: true
+      name: "INZEWORLD.COM (DE)",
+      password: "saher.inzeworld.com",
+      host: "lava.inzeworld.com",
+      port:  3128,
+      secure: false
     }
   ]
 }
