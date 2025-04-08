@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "INZEWORLD.COM (DE)",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port:  3128,
+      name: "GlaceYT",
+      password: "wwweasycodero",
+      host: "lavalink-v2.pericsq.ro",
+      port:  6677,
       secure: false
     }
   ]
