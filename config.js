@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Moj YT",
-      password: "admin12345",
-      host: "5.39.63.207",
-      port:  7845,
+      name: "GlaceYT",
+      password: "glaceyt",
+      host: "193.226.78.187",
+      port:  9372,
       secure: false
     }
   ]
