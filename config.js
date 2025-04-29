@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "GlaceYT",
-      password: "wwweasycodero",
-      host: "lavalink-v2.pericsq.ro",
-      port:  6677,
+      name: "Moj YT",
+      password: "admin12345",
+      host: "5.39.63.207",
+      port:  7845,
       secure: false
     }
   ]
