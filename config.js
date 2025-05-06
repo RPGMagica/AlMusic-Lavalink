@@ -17,11 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "noahland",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port:  3000,
-      secure: false
+Host : lava-v3.ajieblogs.eu.org
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
     }
   ]
 }
