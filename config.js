@@ -16,12 +16,11 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-     {
-      name: "scrxpie",
-      password: "Asim2212",
-      host: "meta.pylex.xyz",
-      port:  11508,
-      secure: false
-    }
+  lavalink: {
+    password: "yourpasswordhere",
+    host: "160.191.77.60",
+    port: 3342,
+    secure: false
+  }
   ]
 }
