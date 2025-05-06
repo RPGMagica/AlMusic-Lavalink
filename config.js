@@ -17,10 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      host : lava-v3.ajieblogs.eu.org
-      port : 80
-      password : "https://dsc.gg/ajidevserver"
-      secure : false
+      name: "scrxpie",
+      password: "Asim2212",
+      host: "meta.pylex.xyz",
+      port:  11508,
+      secure: false
     }
   ]
 }
