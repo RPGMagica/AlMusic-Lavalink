@@ -16,7 +16,7 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-  lavalink: {
+  {
     password: "yourpasswordhere",
     host: "160.191.77.60",
     port: 3342,
