@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
   {
-   name: "dj wale babu",
-      password: "inosuke",
-      host: "inosuke.69.mu",
-      port:  11622,
+      name: "Main Node",
+      password: "youshallnotpass",
+      host: "lavalink.jirayu.net",
+      port:  13592,
       secure: false
   }
   ]
