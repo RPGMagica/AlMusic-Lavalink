@@ -17,11 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-     name:"musix",
-     password:"https://dsc.gg/ajidevserver",
-     host:"lava-v4.ajieblogs.eu.org",
-     port:443,
-     secure: true
+      name: "GlaceYT",
+      password: "glace",
+      host: "87.106.62.92",
+      port:  11642,
+      secure: false
     }
   ]
 }
