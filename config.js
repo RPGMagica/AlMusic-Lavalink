@@ -17,11 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Koi Node V4",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port: 3128,
-      secure: false
+    name:"musix",
+     password:"https://dsc.gg/ajidevserver",
+     host:"lava-v4.ajieblogs.eu.org",
+     port:443,
+     secure: true
     }
   ]
 }
