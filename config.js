@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Groovy",
-      password: "Kaun.Yuvraj",
-      host: "108.181.221.203",
-      port: 30001,
+      name: "Koi Node V4",
+      password: "saher.inzeworld.com",
+      host: "lava.inzeworld.com",
+      port: 3128,
       secure: false
     }
   ]
