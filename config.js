@@ -17,11 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-    name:"musix",
-     password:"https://dsc.gg/ajidevserver",
-     host:"lava-v4.ajieblogs.eu.org",
-     port:443,
-     secure: true
+      name: "DJforDog",
+      password: "2ymwOxtp4Zed6GfE",
+      host: "23.80.88.110",
+      port:  10796,
+      secure: false
     }
   ]
 }
