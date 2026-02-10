@@ -21,12 +21,66 @@ module.exports = {
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
   nodes: [
-     {
-       name:"musix",
-     password:"https://dsc.gg/ajidevserver",
-     host:"lava-v4.ajieblogs.eu.org",
-     port:443,
-     secure: true
+    {
+      name: "AYANO LAVA",
+      password: "AYANO",
+      host: "194.58.66.44",
+      port: 3660,
+      secure: false
+    },
+    {
+      name: "Harmonix V4",
+      password: "Kaun.Yuvraj",
+      host: "pnode1.danbot.host",
+      port: 1186,
+      secure: false
+    },
+    {
+      name: "Voidhosting",
+      password: "cocaine",
+      host: "nexus.voidhosting.vip",
+      port: 6004,
+      secure: false
+    },
+    {
+      name: "GlceYT",
+      password: "glace",
+      host: "us-01.strixnodes.com",
+      port: 8003,
+      secure: false
+    },
+    {
+      name: "DEVINE PRO",
+      password: "Devine",
+      host: "top.kyrahost.xyz",
+      port: 2010,
+      secure: false
+    },
+    {
+      name: "D-Radio",
+      password: "KaAs",
+      host: "ishaan.hidencloud.com",
+      port: 24590,
+      secure: false
+    },
+    {
+      name: "prmgvyt",
+      password: "prmgvyt",
+      host: "217.160.125.127",
+      port: 14845,
+      secure: false
+    },
+    {
+      name: "Lunarnode",
+      password: "youshallnotpass",
+      host: "in1.lunarnode.xyz",
+      port: 2993,
+      secure: false
     }
+    // More nodes from thread: see docs/LAVALINK_NODES.md
+    // Yumi (Ariato!) - temporarily down, uncomment when host is back:
+    // { name: "Yumi", password: "Sakura", host: "TBD", port: 2333, secure: false },
+    // The bot will automatically use the first available node
+    // Automatic failover to next node if one goes down
   ]
 }
