@@ -22,11 +22,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
     {
-      name: "D-Radio",
-      password: "KaAs",
-      host: "ishaan.hidencloud.com",
-      port: 24590,
-      secure: false
+     Host : lavalinkv4.serenetia.com
+Port : 443
+Password : "https://dsc.gg/ajidevserver"
+Secure : true
     },
     {
       name: "Harmonix V4",
