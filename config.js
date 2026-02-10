@@ -22,10 +22,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
     {
-     Host : lavalinkv4.serenetia.com,
-       Port : 443,
-Password : "https://dsc.gg/ajidevserver",
-Secure : true
+host: "lavalinkv4.serenetia.com",
+port: 443,
+Password: "https://dsc.gg/ajidevserver",
+Secure: true
     },
     {
       name: "Harmonix V4",
