@@ -22,11 +22,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "GlaceYT2",
-      password: "glace",
-      host: "45.13.236.245",
-      port: 25582,
-      secure: false
+       name:"musix",
+     password:"https://dsc.gg/ajidevserver",
+     host:"lava-v4.ajieblogs.eu.org",
+     port:443,
+     secure: true
     }
   ]
 }
