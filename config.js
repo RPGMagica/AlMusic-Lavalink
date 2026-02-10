@@ -20,18 +20,20 @@ module.exports = {
   // Performance optimizations for low-memory environments (512MB RAM)
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
-  nodes: [
+   nodes: [
     {
-Host: "lavalink.jirayu.net",
-Port: 443,
-Password: "youshallnotpass",
-Secure: true
+      name: "AYANO LAVA",
+      password: "AYANO",
+      host: "194.58.66.44",
+      port: 3660,
+      secure: false
     },
     {
-    Host : "lavalinkv4.serenetia.com",
-Port : 80,
-Password : "https://dsc.gg/ajidevserver",
-Secure : false
+      name: "Harmonix V4",
+      password: "Kaun.Yuvraj",
+      host: "pnode1.danbot.host",
+      port: 1186,
+      secure: false
     },
     {
       name: "Voidhosting",
@@ -41,16 +43,17 @@ Secure : false
       secure: false
     },
     {
-    Host: "lavalink.jirayu.net",
-Port: 13592,
-Password: "youshallnotpass",
-Secure: false   
+      name: "GlceYT",
+      password: "glace",
+      host: "us-01.strixnodes.com",
+      port: 8003,
+      secure: false
     },
     {
-      name: "XD",
-      password: "Kaun.Yuvraj",
-      host: "pnode1.danbot.host",
-      port:  1186,
+      name: "DEVINE PRO",
+      password: "Devine",
+      host: "top.kyrahost.xyz",
+      port: 2010,
       secure: false
     },
     {
