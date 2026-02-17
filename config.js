@@ -43,10 +43,10 @@ module.exports = {
       secure: false
     },
     {
-      name: "GlceYT",
-      password: "glace",
-      host: "us-01.strixnodes.com",
-      port: 8003,
+      name: "GTP Music",
+      password: "anand@123",
+      host: "180.188.226.76",
+      port:  7019,
       secure: false
     },
     {
