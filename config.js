@@ -29,11 +29,11 @@ module.exports = {
       secure: false
     },
     {
-      name: "Harmonix V4",
-      password: "Kaun.Yuvraj",
-      host: "pnode1.danbot.host",
-      port: 1186,
-      secure: false
+      name: "DJforDog",
+       password: "UHrg5iqJVE0",
+       host: "168.222.251.98",
+       port: 5380,
+       secure: false
     },
     {
       name: "Voidhosting",
