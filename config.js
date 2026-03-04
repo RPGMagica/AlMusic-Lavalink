@@ -22,60 +22,11 @@ module.exports = {
   errorLog: "", 
    nodes: [
     {
-      name: "AYANO LAVA",
-      password: "AYANO",
-      host: "194.58.66.44",
-      port: 3660,
-      secure: false
-    },
-    {
       name: "DJforDog",
        password: "UHrg5iqJVE0",
        host: "168.222.251.98",
        port: 5380,
        secure: false
-    },
-    {
-      name: "Voidhosting",
-      password: "cocaine",
-      host: "nexus.voidhosting.vip",
-      port: 6004,
-      secure: false
-    },
-    {
-      name: "GTP Music",
-      password: "anand@123",
-      host: "180.188.226.76",
-      port:  7019,
-      secure: false
-    },
-    {
-      name: "DEVINE PRO",
-      password: "Devine",
-      host: "top.kyrahost.xyz",
-      port: 2010,
-      secure: false
-    },
-    {
-      name: "D-Radio",
-      password: "KaAs",
-      host: "ishaan.hidencloud.com",
-      port: 24590,
-      secure: false
-    },
-    {
-      name: "prmgvyt",
-      password: "prmgvyt",
-      host: "217.160.125.127",
-      port: 14845,
-      secure: false
-    },
-    {
-      name: "Lunarnode",
-      password: "youshallnotpass",
-      host: "in1.lunarnode.xyz",
-      port: 2993,
-      secure: false
     }
     // More nodes from thread: see docs/LAVALINK_NODES.md
     // Yumi (Ariato!) - temporarily down, uncomment when host is back:
