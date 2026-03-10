@@ -21,6 +21,13 @@ module.exports = {
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
   nodes: [
+{
+     name:"musix",
+     password:"https://dsc.gg/ajidevserver",
+     host:"lava-v4.ajieblogs.eu.org",
+     port:443,
+     secure: true
+}
      {
       name: "DJforDog",
        password: "UHrg5iqJVE0",
