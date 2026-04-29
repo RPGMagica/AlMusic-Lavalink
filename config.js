@@ -21,47 +21,33 @@ module.exports = {
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
   nodes: [
- {
-      name: "Serenetia V4",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lavalinkv4.serenetia.com",
-      port: 443,
-      secure: true
-    },
     {
-      name: "Serenetia V3/V4",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lavalink.serenetia.com",
-      port: 443,
-      secure: true
-    },
-    {
-      name: "Jirayu",
-      password: "youshallnotpass",
+      name: "Jirayu-Thailand (Priority)",
       host: "lavalink.jirayu.net",
       port: 443,
-      secure: true
+      password: "youshallnotpass",
+      secure: true,
     },
     {
-      name: "GlaceYT",
-      password: "glace",
-      host: "de-01.strixnodes.com",
-      port: 2010,
-      secure: false
+      name: "MilloHost-Indonesia",
+      host: "lava-v4.millohost.my.id",
+      port: 443,
+      password: "https://discord.gg/mjS5J2K3ep",
+      secure: true,
     },
     {
-      name: "Mart",
-      password: "D-Radio",
-      host: "162.19.133.164",
-      port: 7918,
-      secure: false
+      name: "Serenetia-V4",
+      host: "lavalinkv4.serenetia.com",
+      port: 443,
+      password: "https://seretia.link/discord",
+      secure: true,
     },
     {
-      name: "Friston",
-      password: "Secure@Friston",
-      host: "185.211.103.215",
-      port: 6873,
-      secure: false
+      name: "Trinium-Global",
+      host: "lavalink-v4.triniumhost.com",
+      port: 443,
+      password: "free",
+      secure: true,
     }
   ]
 }
