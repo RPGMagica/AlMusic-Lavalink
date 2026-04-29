@@ -22,11 +22,46 @@ module.exports = {
   errorLog: "", 
   nodes: [
  {
+      name: "Serenetia V4",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lavalinkv4.serenetia.com",
+      port: 443,
+      secure: true
+    },
+    {
+      name: "Serenetia V3/V4",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lavalink.serenetia.com",
+      port: 443,
+      secure: true
+    },
+    {
       name: "Jirayu",
       password: "youshallnotpass",
       host: "lavalink.jirayu.net",
       port: 443,
       secure: true
+    },
+    {
+      name: "GlaceYT",
+      password: "glace",
+      host: "de-01.strixnodes.com",
+      port: 2010,
+      secure: false
+    },
+    {
+      name: "Mart",
+      password: "D-Radio",
+      host: "162.19.133.164",
+      port: 7918,
+      secure: false
+    },
+    {
+      name: "Friston",
+      password: "Secure@Friston",
+      host: "185.211.103.215",
+      port: 6873,
+      secure: false
     }
   ]
 }
