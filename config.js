@@ -28,6 +28,27 @@ module.exports = {
      port:443,
      secure: true
 },
+      {
+      name: "Serenetia V4",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lavalinkv4.serenetia.com",
+      port: 443,
+      secure: true
+    },
+        {
+      name: "Jirayu",
+      password: "youshallnotpass",
+      host: "lavalink.jirayu.net",
+      port: 443,
+      secure: true
+    },
+        {
+      name: "Mart",
+      password: "D-Radio",
+      host: "162.19.133.164",
+      port: 7918,
+      secure: false
+    },
      {
       name: "DJforDog",
        password: "UHrg5iqJVE0",
