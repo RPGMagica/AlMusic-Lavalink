@@ -22,17 +22,17 @@ module.exports = {
   errorLog: "", 
   nodes: [
     {
-      name: "Jirayu-Thailand (Priority)",
-      host: "lavalink.jirayu.net",
-      port: 443,
-      password: "youshallnotpass",
-      secure: true,
-    },
-    {
       name: "MilloHost-Indonesia",
       host: "lava-v4.millohost.my.id",
       port: 443,
       password: "https://discord.gg/mjS5J2K3ep",
+      secure: true,
+    },
+    {
+      name: "Jirayu-Thailand (Priority)",
+      host: "lavalink.jirayu.net",
+      port: 443,
+      password: "youshallnotpass",
       secure: true,
     },
     {
