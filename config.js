@@ -22,6 +22,13 @@ module.exports = {
   errorLog: "", 
   nodes: [
     {
+      name: "Serenetia-V4",
+      host: "lavalinkv4.serenetia.com",
+      port: 443,
+      password: "https://seretia.link/discord",
+      secure: true,
+    },
+    {
       name: "MilloHost-Indonesia",
       host: "lava-v4.millohost.my.id",
       port: 443,
@@ -35,13 +42,7 @@ module.exports = {
       password: "youshallnotpass",
       secure: true,
     },
-    {
-      name: "Serenetia-V4",
-      host: "lavalinkv4.serenetia.com",
-      port: 443,
-      password: "https://seretia.link/discord",
-      secure: true,
-    },
+
     {
       name: "Trinium-Global",
       host: "lavalink-v4.triniumhost.com",
