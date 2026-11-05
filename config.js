@@ -21,6 +21,13 @@ module.exports = {
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
   nodes: [
+       {
+      name: "Groovy",
+      password: "Kaun.Yuvraj",
+      host: "108.181.221.203",
+      port: 30001,
+      secure: false
+    },
     {
       name: "Serenetia-V4",
       host: "lavalinkv4.serenetia.com",
