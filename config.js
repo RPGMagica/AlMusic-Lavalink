@@ -21,6 +21,13 @@ module.exports = {
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
   errorLog: "", 
   nodes: [
+        {
+      name: "MilloHost-Indonesia",
+      host: "lava-v4.millohost.my.id",
+      port: 443,
+      password: "https://discord.gg/mjS5J2K3ep",
+      secure: true,
+    },
        {
       name: "Groovy",
       password: "Kaun.Yuvraj",
@@ -35,13 +42,7 @@ module.exports = {
       password: "https://seretia.link/discord",
       secure: true,
     },
-    {
-      name: "MilloHost-Indonesia",
-      host: "lava-v4.millohost.my.id",
-      port: 443,
-      password: "https://discord.gg/mjS5J2K3ep",
-      secure: true,
-    },
+
     {
       name: "Jirayu-Thailand (Priority)",
       host: "lavalink.jirayu.net",
@@ -49,7 +50,6 @@ module.exports = {
       password: "youshallnotpass",
       secure: true,
     },
-
     {
       name: "Trinium-Global",
       host: "lavalink-v4.triniumhost.com",
